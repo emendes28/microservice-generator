@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-catalog xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-catalog/1.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-catalog/1.0.0 http://maven.apache.org/xsd/archetype-catalog-1.0.0.xsd">
+    <archetypes>
+        <archetype>
+            <groupId>br.com.emendes.spring-boot-archetypes</groupId>
+            <artifactId>spring-boot-emendes-quickstart</artifactId>
+            <version>1.0.0</version>
+            <repository></repository>
+            <description>Archetype para criar a aplicação de Deploy</description>
+        </archetype>
+    </archetypes>
+</archetype-catalog>

@@ -1,0 +1,22 @@
+spring:
+  redis:
+    host: localhost
+    port: 6379
+    database: 0
+  application:
+    name: ${projectRepositoryName}
+
+  jackson:
+    default-property-inclusion: non_null
+    deserialization:
+      fail-on-unknown-properties: false
+
+management:
+  endpoints:
+    web:
+      basePath: /
+      exposure:
+        include: health
+
+server:
+  port: 8080
