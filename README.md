@@ -23,7 +23,7 @@ mvn install
 Após isso, o gerador estará apto a ser executado. Navegue até a pasta onde o novo microserviço será criado e execute:
 
 ```
-mvn archetype:generate -DarchetypeGroupId=br.com.microservice -DarchetypeArtifactId=spring-boot-microservice-quickstart -DarchetypeVersion=1.0.0 -DgroupId=br.com.emendes -DartifactId=client -Dversion=0.0.1-SNAPSHOT -DinteractiveMode=false -Ddescription='Descrição' -Dprofile=dev
+mvn archetype:generate -DarchetypeGroupId=br.com.microservice -DarchetypeArtifactId=spring-boot-microservice-quickstart -DarchetypeVersion=1.0.0 -DgroupId=br.com.emendes -DartifactId=client -Dversion=0.0.1-SNAPSHOT -DinteractiveMode=false -Ddescription='Descrição' -Dprofile=dev -DprojectRepositoryName=myclients
 ```
 
 Onde:
@@ -36,6 +36,7 @@ Onde:
 > - Dversion: Versão do projeto
 > - DinteractiveMode: false
 > - Ddescription: Descrição do projeto
+> - DprojectRepositoryName: Qual o nome do repositorio
 > - Dprofile: Perfil no qual o projeto será gerado, que pode ser:
 >   - dev
 >   - hmg
